@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /* font: normal 20px 'Roboto', sans-serif; */
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+a {
+    background: rgb(210, 221, 248);
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgb(183, 201, 248);
+    text-decoration: underline;
+}
+
+a:visited {
+    background: rgb(248, 201, 200);
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(174, 160, 253, 0.25);
+    width: 12em;
+    background: #230341;
+    border-radius: 15px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #868686;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.hobby {
+    background-color: rgba(219, 245, 212, .5);
+}
+
+.work {
+    background-color: rgba(245, 212, 212, 0.5)
+}
+
+.contact {
+    background-color: rgba(241, 241, 190, .5)
+}
+
+.btn {
+    padding: 10px;
+    color:white;
+    background-color: gray;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.list {
+    font-style: italic;
+    padding: 0 20px;
+}
+
+.list li {
+    color: #868686;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #868686;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+
+@media (max-width: 650px){
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #868686;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+xx
